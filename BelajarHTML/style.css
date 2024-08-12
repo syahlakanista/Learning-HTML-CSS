@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6rem;
+    margin: 0;
+}
+
+.background {
+    background-image: url(images/background.jpg);
+    background-position: center;
+    height: 300px;
+    width: auto;
+    background-repeat: repeat;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.body-content {
+    padding: 1.5rem;
+    width: fit-content;
+    margin: auto;
+}
+
+.header-title {
+    background-color: cadetblue;
+    color: white;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #555;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar-item a:link,
+.navbar-item a:visited,
+.navbar-item a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.categories {
+    border: 1px solid;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+.categories h3 {
+    text-align: center;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.categories li {
+    padding-bottom: 10px;
+    border-bottom: dotted 1px #555;
+    list-style-image: url(images/Checklist.png);
+}
+
+.myForm {
+    padding: 10px;
+}
+
+.myForm h3 {
+    text-align: center;
+}
+
+.myForm .formGroup {
+    padding-bottom: 15px;
+}
+
+.myForm label {
+    display: block;
+}
+
+.myForm input[type="text"],
+.myForm textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.button {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+.button:hover {
+    color: red;
+}
+
+.button:active {
+    color: blue;
+}
+
+.footer-content {
+    text-align: center;
+    background-color: #555;
+    color: #fff
+}
+
+.block {
+    float: left;
+    width: 50%;
+    border: dotted 1px;
+    padding: 10px;
+}
+
+.clr {
+    clear: both;
+}
